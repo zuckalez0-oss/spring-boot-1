@@ -1,0 +1,17 @@
+{
+  "name": "spring-boot-java21",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-maven",
+        "eamodio.gitlens",
+        "usernamehw.errorlens",
+        "editorconfig.editorconfig"
+      ]
+    }
+  },
+  "forwardPorts": [8080, 8081]
+}
